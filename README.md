@@ -16,8 +16,8 @@
 |              或者登录[网站](https://zenodo.org/records/7029359)下载
 │                         
 ├── resource : 我们预先收集的漏洞数据，由于原始文件过大，我们只选取了部分上传，如果需要运行完整的漏洞库匹配，
-│              请下载[CVEfixes_v1.0.7.zip] (https://zenodo.org/records/7029359/files/CVEfixes_v1.0.7.zip?download=1) 
-│               并使用script/build.py构建完整漏洞文件。
+│   │          请下载[CVEfixes_v1.0.7.zip] (https://zenodo.org/records/7029359/files/CVEfixes_v1.0.7.zip?download=1) 
+│   │          并使用script/build.py构建完整漏洞文件。
 │   ├── java_cve.json : java漏洞数据集
 │   ├── js_cve.json : js漏洞数据集
 │   └── py_cve.json : python漏洞数据集
@@ -29,7 +29,9 @@
 ```
 
 #### 依赖
+
 |依赖|版本|
+| :--- | :--- |
 |datasketch|1.6.5|
 |tree-sitter|0.23.2|
 |tree-sitter-java|0.23.5|
